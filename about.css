@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+}
+
+.myself {
+    background-color: #a5bdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    /* width: 500px; */
+}
+
+.interest {
+    background-color: #626fe6;
+    padding: 40px;
+    display: flex;
+    /* width: 500px; */
+}
+.myself h1{
+    font-family: 'Alex Brush';
+    font-size: 50px;
+    margin: 20px 0 0;
+}
+.myself p {
+    margin: 15px 0 0;
+    font-family: 'Athiti';
+    margin: 15px 0 0;
+}
+.text{
+   
+    font-family: 'Athiti';
+    font-size: 20px;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #ffe3b0;
+}
