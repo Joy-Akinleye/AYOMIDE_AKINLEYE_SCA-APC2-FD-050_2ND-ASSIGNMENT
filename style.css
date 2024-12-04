@@ -26,8 +26,9 @@ body{
     text-decoration: none;
     color: #606470;
 }
-.navbar li a:hover{
-    background-color: #dcb5ff;
+.navbar li a:hover,
+.navbar li a.active{
+    color: #dcb5ff;
     
 }
 .container{
